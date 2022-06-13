@@ -1,0 +1,45 @@
+
+
+#cover {
+    width: 100%;
+}
+
+#container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: calc(100vw * 0.525);
+    background-image: url("../../assets/cover.png");
+    background-size: cover;
+}
+
+.main-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transform-origin: center;
+
+    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-weight: 20;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 1rem;
+
+    color: white;
+    background-color: #0096a7da;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    transition: 250ms;
+}
+
+.main-btn:hover {
+    background-color: #0096a74b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.main-btn:focus {
+    background-color:  #0096a7da;
+    transform: translate(-50%, -50%) scale(0.95);
+}
