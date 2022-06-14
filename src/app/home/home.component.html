@@ -7,7 +7,7 @@
     perspectives and objective critiquing results in partnerships that produce sustainable, measurable
     growth and outcomes.
     </p>
-    <div class="side-by-side">
+    <div *ngIf="screenWidth > 800" class="side-by-side">
         <div>
             <h1 class="title">Vision</h1>
             <p>
@@ -22,6 +22,19 @@
         equity by recognizing and eliminating unconscious bias within their organizations.
             </p>
         </div>
+    </div>
+    <div *ngIf="screenWidth <= 800">
+        <h1 class="title">Vision</h1>
+        <p>
+            We envision high functioning communities where systems and institutions are restructured,
+    equitable and produce positive outcomes for all despite race, culture, gender or ethnicity
+        </p>
+        <h1 class="title">Mission Statement</h1>
+        <p>
+            As Critical Friends, we support leaders to develop and execute transformative strategies that create
+    equity by recognizing and eliminating unconscious bias within their organizations.
+        </p>
+        
     </div>
     <h1 class="title">Rationale</h1>
     <p>
