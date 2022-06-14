@@ -1,22 +1,21 @@
-
-
-#cover {
+.spacer {
     width: 100%;
+    height: calc(100vw * 0.4);
 }
 
-#container {
-    position: absolute;
+#cover {
+    position: relative;
     top: 0%;
     left: 0%;
     width: 100%;
-    height: calc(100vw * 0.525);
-    background-image: url("../../assets/cover.png");
+    height: calc(100vw * 0.4);
+    background-image: url("../../assets/cover2.jpg");
     background-size: cover;
 }
 
 .main-btn {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transform-origin: center;
@@ -25,11 +24,11 @@
     font-weight: 20;
     font-size: 2em;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 
     color: white;
     background-color: #0096a7da;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 
     transition: 250ms;
 }

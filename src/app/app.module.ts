@@ -9,16 +9,18 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { CoverComponent } from './cover/cover.component';
-import { LogoComponent } from './logo/logo.component';
 import { HomeComponent } from './home/home.component';
+import { BannerComponent } from './banner/banner.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CoverComponent,
-    LogoComponent,
-    HomeComponent
+    HomeComponent,
+    BannerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

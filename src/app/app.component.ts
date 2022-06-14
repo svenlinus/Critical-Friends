@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'critical-friends';
+  constructor() {
+    document.body.style.height = "auto";
+  }
 }

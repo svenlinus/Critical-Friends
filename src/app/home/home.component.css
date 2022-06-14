@@ -1,0 +1,52 @@
+/* @import '../../../theme.scss'; */
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+    color: #0096a7;
+    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-size: 24pt;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 3rem 2rem;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 8ch;
+    height: 4px;
+
+    background-color: #ff8f00;
+
+    transform-origin: left;
+    transform: scaleX(0.5) translate(0, 1.5rem);
+}
+
+p {
+    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 24pt;
+    text-decoration: none;
+    margin: 0 2rem 1rem;
+}
+
+.side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.side-by-side p {
+    margin-right: 0;
+}
