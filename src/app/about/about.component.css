@@ -9,6 +9,11 @@
     margin: 0;
 }
 
+.larger {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+
 
 p {
     padding-bottom: 1.5rem;

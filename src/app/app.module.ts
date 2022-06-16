@@ -14,8 +14,8 @@ import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
-import { NONE_TYPE } from '@angular/compiler';
-import { empty } from 'rxjs';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +24,8 @@ import { empty } from 'rxjs';
     HomeComponent,
     BannerComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +36,8 @@ import { empty } from 'rxjs';
     AppRoutingModule,
     RouterModule.forRoot([
       { path: "", component: HomeComponent},
-      { path: "about", component: AboutComponent}
+      { path: "about", component: AboutComponent},
+      { path: "testimonials", component: TestimonialsComponent},
     ])
   ],
   providers: [],
