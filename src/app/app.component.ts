@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'critical-friends';
   sw = 1000;
   public static screenWidth = window.innerWidth;
+
   constructor() {
     document.body.style.height = "auto";
     document.body.style.display = "block";
@@ -20,6 +21,7 @@ export class AppComponent {
     AppComponent.screenWidth = window.innerWidth;
     this.sw = AppComponent.screenWidth
     let mainBtn = (document.querySelector('.main-btn') as HTMLElement);
+    if(!mainBtn) return;
     if(AppComponent.screenWidth < 800) {
       mainBtn.style.fontSize = "10pt";
       mainBtn.style.padding = "0.5rem";

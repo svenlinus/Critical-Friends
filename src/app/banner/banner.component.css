@@ -7,9 +7,15 @@ h1 {
     padding: 2.2rem 0 0.8rem;
 }
 
-#container {
+#banner {
     max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: 0.6fr 1.4fr;
+}
+
+@media (max-width: 1000px) {
+    #container {
+        display: none;
+    }
 }

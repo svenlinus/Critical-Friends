@@ -7,6 +7,11 @@
     transform: translate(0, 3px);
 }
 
+img {
+    width: 30%;
+    padding: 0.4rem 0 0rem;
+}
+
 span {
     font-size: 17pt;
 }
@@ -16,6 +21,7 @@ span {
     position: sticky;
     top: 0;
     z-index: 10;
+    height: auto;
 }
 
 .link {
@@ -25,7 +31,6 @@ span {
     text-decoration: none;
     color:white;
     margin: 0 1rem;
-    padding: 0.2rem 0;
     min-width: 0;
     position: relative;
 }
@@ -63,10 +68,11 @@ span {
 
 
 #content {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
 
 #routes {
    float: right;
+   padding: 2rem 0 0;
 }

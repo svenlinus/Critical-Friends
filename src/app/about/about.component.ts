@@ -2,22 +2,22 @@ import { AppComponent } from './../app.component';
 import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
 })
-export class HomeComponent implements OnInit {
+export class AboutComponent implements OnInit {
 
-  // constructor() { }
+  constructor() { }
 
-  
   screenWidth = AppComponent.screenWidth;
   @HostListener('window:resize', ['$event'])
   onResize() {this.screenWidth = AppComponent.screenWidth;}
 
+
   ngOnInit(): void {
     const banner = document.getElementById("banner");
-    if(banner) banner.style.display = "grid";
+    if(banner) banner.style.display = "none";
   }
 
 }
