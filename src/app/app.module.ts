@@ -15,6 +15,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ServicesComponent } from './services/services.component';
+import { BioComponent } from './bio/bio.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     BannerComponent,
     FooterComponent,
     AboutComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ServicesComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +42,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
       { path: "", component: HomeComponent},
       { path: "about", component: AboutComponent},
       { path: "testimonials", component: TestimonialsComponent},
+      { path: "services", component: ServicesComponent},
+      { path: "bio", component: BioComponent},
     ])
   ],
   providers: [],

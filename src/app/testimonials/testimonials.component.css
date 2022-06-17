@@ -1,2 +1,51 @@
 @import "../home/home.component.css";
 
+.quote {
+    margin: 1rem 2rem 0;
+    color: #ff9100;
+    font-family: Arial;
+    font-size: 15rem;
+    font-weight: 500;
+    transform: translate(-6.5rem, 4rem) scale(1, 0.8);
+    height: 0rem;
+}
+
+.test {
+    max-width: 48rem;
+    /* text-align: justify; */
+    margin: auto;
+    margin-bottom: 4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 2rem 1.5rem 1.7rem 6rem
+}
+
+.test > p {
+    margin-bottom: 1rem;
+}
+
+.author {
+    font-style: italic;
+    position: relative;
+    padding-left: 2.7rem;
+}
+
+.author::before {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 2rem;
+    height: 4px;
+
+    background-color: #ff8f00;
+
+    transform-origin: left;
+    transform: translate(0, 1rem);
+}
+
+.container {
+    display: block;
+    height: auto;
+}
