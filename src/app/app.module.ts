@@ -17,6 +17,7 @@ import { AboutComponent } from './about/about.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ServicesComponent } from './services/services.component';
 import { BioComponent } from './bio/bio.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { BioComponent } from './bio/bio.component';
     AboutComponent,
     TestimonialsComponent,
     ServicesComponent,
-    BioComponent
+    BioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +46,7 @@ import { BioComponent } from './bio/bio.component';
       { path: "testimonials", component: TestimonialsComponent},
       { path: "services", component: ServicesComponent},
       { path: "bio", component: BioComponent},
+      { path: "contact", component: ContactComponent},
     ])
   ],
   providers: [],

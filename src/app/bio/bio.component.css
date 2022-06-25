@@ -1,1 +1,14 @@
 @import "../home/home.component.css";
+
+p {
+    line-height: 2.5rem;
+}
+
+.title {
+    margin-bottom: 4rem;
+}
+
+.title::after {
+    transform: translate(0, 2rem);
+    width: 5ch;
+}
