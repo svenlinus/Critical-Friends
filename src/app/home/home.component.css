@@ -54,7 +54,7 @@
 #container {
     max-width: 1000px;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .title {
@@ -111,6 +111,6 @@ p {
 
 .side-by-side div {
     /* background-color: #0096a717; */
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.18);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.14);
     /* border-radius: 3em; */
 }

@@ -21,6 +21,13 @@
 }
 
 
+.outcomes > ul {
+    padding-top: 0;
+    padding-left: 1rem;
+    transform: translate(0, -1rem);
+}
+
+
 
 
 #myFlex {
