@@ -9,7 +9,7 @@
 
 img {
     width: 30%;
-    padding: 0.4rem 0 0rem;
+    margin: 12px 0 0rem;
 }
 
 span {
@@ -75,5 +75,5 @@ span {
 
 #routes {
    float: right;
-   padding: 2rem 0 0;
+   padding: 28px 0 0;
 }
