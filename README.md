@@ -1,5 +1,16 @@
 # CriticalFriends
 
+## How to make changes
+
+1. Open folders src -> app
+2. Navigate to the folder you want to edit (ex. Bio)
+3. Open the .html file (ex. bio.component.html)
+4. Make your desired change
+5. Press "Commit Changes" and add optional commit message
+6. Let me know so that I can push chnages
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
 
 ## Development server
