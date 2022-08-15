@@ -1,3 +1,7 @@
 body {
     height: auto;
 }
+
+.main-content {
+    min-height: calc(100vh - 93px - 10rem);
+}
